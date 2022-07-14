@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>yuanx</title>
+        <style>
+            body {
+                font-family: "Rubik", -apple-system, BlinkMacSystemFont,
+                    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+                    "Helvetica Neue", sans-serif;
+                font-size: calc(10px + 0.33vw);
+                -webkit-font-smoothing: antialiased;
+                padding: 5vh 10vw;
+                color: #121314;
+            }
+            h1 {
+                font-size: 4.5em;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+            p {
+                font-size: 1.6em;
+                font-weight: 300;
+                line-height: 1.4;
+                max-width: 28em;
+            }
+            a {
+                text-decoration: none;
+                white-space: nowrap;
+                color: #121314;
+                position: relative;
+            }
+            a:after {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                top: 66%;
+                left: -0.1em;
+                right: -0.1em;
+                bottom: 0;
+                transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+                background-color: rgba(79, 192, 141, 0.5);
+            }
+            a:hover:after {
+                top: 0%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Hi, I am yuanx.</h1>
+            <p>I am a front-end Engineer, I used React in work, But i also like Vue.</p>
+            <p>My ideal is to become an independent developer, I have a side project: <a href="https://m-calendar.yuanx.me" target="_blank">米历</a>, It is a calendar app support chinese holiday, You can download it in AppStore.</p>
+            <p>If you like me you can following me in <a href="https://www.github.com/yunying1" target="_blank">GitHub</a> or <a href="https://twitter.com/yyuan_x" target="_blank">Twitter</a>.</p>
+            <p>Email: lonelyuanx@gmail.com</p>
+        </div>
+    </body>
+</html>
